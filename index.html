@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combine clock</title>
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/2d15041e4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Combine Clock</h1>
+        <p>By <a href="https://www.twitter.com/Ahsan_HJ">Ahsan Habib Jubayer</a></p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h3>Digital Clock</h3>
+                    </div>
+                    <div class="clock-body">
+                        <div class="clock-container">
+                            <div class="hours">
+                                 <span>Hours</span>
+                                 <p id="hour">00</p>
+                            </div>
+                            <div class="colon"></div>
+                            <div class="minutes">
+                                <span>Minutes</span>
+                                <p id="minute">00</p>
+                            </div>
+                            <div class="colon"></div>
+                            <div class="seconds">
+                                <span>Second</span>
+                                <p id="second">00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h3>Analog Clock</h3>
+                    </div>
+                    <div class="clock-body1">
+                        <div class="clock">
+                            <div class="hand hour" data-hour-hand></div>
+                            <div class="hand minute" data-minute-hand></div>
+                            <div class="hand second" data-second-hand></div>
+                            <div class="number number1">1</div>
+                            <div class="number number2">2</div>
+                            <div class="number number3">3</div>
+                            <div class="number number4">4</div>
+                            <div class="number number5">5</div>
+                            <div class="number number6">6</div>
+                            <div class="number number7">7</div>
+                            <div class="number number8">8</div>
+                            <div class="number number9">9</div>
+                            <div class="number number10">10</div>
+                            <div class="number number11">11</div>
+                            <div class="number number12">12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-lg-6">
+                <button class="btn" onclick="window.open('https://mbasic.facebook.com/jubayerbd.org')"><i class="fa fa-facebook-official" aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.youtube.com/channel/UCKfmY4Fv7BB6zf1PVyIMEkQ')"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </button>
+                <button class="btn" onclick="window.open('https://twitter.com/Ahsan_HJ')"><i class="fa fa-twitter" aria-hidden="true"></i>
+                </button>
+                <button class="btn" onclick="window.open('https://github.com/jubayarbd')"><i class="fa fa-github" aria-hidden="true"></i></i>
+                </button>
+                </div>
+                <div class="col-lg-6">
+                    <p>All rights reserved By Ahsan HJ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
